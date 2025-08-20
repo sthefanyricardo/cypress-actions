@@ -2,7 +2,7 @@
 
 ## Sobre
 
-Repositório do treinamento: Workflow de testes contínuos em Cypress no Github Actions
+Repositório do treinamento: [ Workflow de testes contínuos em Cypress no Github Actions](https://www.udemy.com/course/testes-continuos-em-cypress-no-github-actions)
 
 ## Stacks
 - Cypress
@@ -28,5 +28,4 @@ yarn cypress run / npx cypress run
 ```
 
 <hr>
-Curso disponível em https://qaxperience.com
-
+Curso disponível em: https://www.udemy.com/course/testes-continuos-em-cypress-no-github-actions
