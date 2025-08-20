@@ -8,6 +8,7 @@ module.exports = defineConfig({
     },
     viewportWidth: 1280,
     viewportHeight: 720,
-    baseUrl: "https://loginxp.vercel.app"
+    baseUrl: "https://loginxp.vercel.app",
+    video: true
   }
 });
