@@ -1,6 +1,6 @@
 ![poster](./.github/poster.png)
 
-![Cypress](https://img.shields.io/badge/Cypress-Testing-04C38E?logo=cypress) ![CI/CD](https://img.shields.io/github/actions/workflow/status/sthefanyricardo/cypress-actions/cypress-tests.yml?label=CI/CD&logo=github) ![Último atualização](https://img.shields.io/github/last-commit/sthefanyricardo/cypress-actions?label=Último%20commit&style=flat&logo=git)
+![Cypress](https://img.shields.io/badge/Cypress-Testing-04C38E?logo=cypress) ![CI/CD](https://img.shields.io/github/actions/workflow/status/sthefanyricardo/cypress-actions/cypress-tests.yml?label=CI/CD&logo=github) ![Último commit](https://img.shields.io/github/last-commit/sthefanyricardo/cypress-actions?label=Último%20commit&style=flat&logo=git)
 
 # Curso Cypress Expert
 
@@ -40,22 +40,16 @@ Com este setup, é possível garantir que os testes de regressão sejam executad
 
 ## 📊 Relatórios e Métricas
 
-Durante a execução dos testes, o projeto gera relatórios e evidências que podem ser acompanhados em diferentes plataformas, garantindo maior rastreabilidade e análise:
+Durante a execução dos testes, o projeto gera relatórios e evidências que podem ser acompanhados em diferentes plataformas, garantindo maior rastreabilidade e análise. Essas plataformas fornecem o histórico detalhado das execuções, incluindo:
+- Visualização clara de falhas e sucessos e tempo de execução.
+- Evidências como anexos, screenshots, vídeos e os logs detalhados e passos de execução.
+- Identificar tendências com as métricas de desempenho em tempo real e os graficos gerados nos dashboards.
+- Consolidar execuções em um só lugar, sendo possivel compartilhar relatórios com a equipe.
 
-- [**Cypress Cloud (Dashboard)**](https://cloud.cypress.io/) → Fornece histórico detalhado das execuções, incluindo:
-  - Passes, falhas e tempo de execução.
-  - Gravações de vídeo e screenshots de falhas.
-  - Métricas de desempenho em tempo real.
-
-- [**Tesults**](https://www.tesults.com/) → Plataforma de análise e gerenciamento de resultados, útil para:
-  - Consolidar execuções em um só lugar.
-  - Identificar tendências e métricas comparativas.
-  - Compartilhar relatórios com a equipe.
-
-- [**Cypress Allure Plugin**](https://github.com/Shelex/cypress-allure-plugin) → Gera relatórios HTML interativos com:
-  - Logs detalhados e passos de execução.
-  - Evidências como anexos, screenshots e vídeos.
-  - Visualização clara de falhas e sucessos.
+As ferramentas de geração de relatórios e métricas utilizadas neste projeto são:
+- [**Cypress Cloud (Dashboard)**](https://cloud.cypress.io/)
+- [**Tesults**](https://www.tesults.com/)
+- [**Cypress Allure Plugin**](https://github.com/Shelex/cypress-allure-plugin)
 
 ---
 
@@ -141,7 +135,7 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias. Certif
 ### 1️⃣ Instalação e Configuração
 
 <details>
-  <summary>1 - Pré-requisitos</summary>
+  <summary>🔹 Pré-requisitos</summary>
 
   Antes de executar os testes, certifique-se de que possui os seguintes itens instalados na sua máquina:
 
@@ -200,7 +194,7 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias. Certif
 </details>
 
 <details>
-  <summary>2 - Instalação das dependências</summary>
+  <summary>🔹 Instalação das dependências</summary>
 
   Com os pré-requisitos instalados, siga estes passos para instalar as dependências do projeto:
 
