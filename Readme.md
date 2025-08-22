@@ -58,7 +58,7 @@ A execução dos testes gera relatórios e evidências que podem ser visualizado
 
 ### Ferramentas de geração de relatórios e métricas
 
-- [**Cypress Cloud**](https://cloud.cypress.io/) → Uma plataforma de dashboard que oferece visualização detalhada e histórica das execuções de testes. Permite ver vídeos, screenshots de falhas e métricas de desempenho.
+- [**Cypress Cloud ou Cypress Dashboard**](https://cloud.cypress.io/) → Uma plataforma de dashboard que oferece visualização detalhada e histórica das execuções de testes. Permite ver vídeos, screenshots de falhas e métricas de desempenho.
   - A integração com o Cypress Cloud oferece um dashboard completo para monitorar o histórico de testes. Ele exibe:
     - Histórico de execuções (passes, falhas, tempo de execução).
     - Gravação de vídeos e screenshots de testes com falha.
