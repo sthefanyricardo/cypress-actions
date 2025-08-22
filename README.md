@@ -40,18 +40,22 @@ Com este setup, é possível garantir que os testes de regressão sejam executad
 
 ## 📊 Relatórios e Métricas
 
-A execução dos testes gera relatórios e evidências que podem ser visualizados em plataformas externas.  
-O projeto integra diferentes ferramentas de relatórios para melhor rastreabilidade:
+Durante a execução dos testes, o projeto gera relatórios e evidências que podem ser acompanhados em diferentes plataformas, garantindo maior rastreabilidade e análise:
 
-- [**Cypress Cloud ou Cypress Dashboard**](https://cloud.cypress.io/) → Uma plataforma de dashboard que oferece visualização detalhada e o histórico das execuções de testes. Permite ver vídeos, screenshots de falhas e métricas de desempenho.
-  - A integração com o Cypress Cloud oferece um dashboard completo para monitorar o histórico de testes. Ele exibe:
-    - Histórico de execuções (passes, falhas, tempo de execução).
-    - Gravação de vídeos e screenshots de testes com falha.
-    - Métricas de desempenho.
+- [**Cypress Cloud (Dashboard)**](https://cloud.cypress.io/) → Fornece histórico detalhado das execuções, incluindo:
+  - Passes, falhas e tempo de execução.
+  - Gravações de vídeo e screenshots de falhas.
+  - Métricas de desempenho em tempo real.
 
-- [**Tesults**](https://www.tesults.com/) → Uma ferramenta de gerenciamento de resultados de testes que fornece uma visualização detalhada dos dados, facilitando a análise das execuções e a identificação de tendências, porque permite ver vídeos, screenshots de falhas e métricas de desempenho.
+- [**Tesults**](https://www.tesults.com/) → Plataforma de análise e gerenciamento de resultados, útil para:
+  - Consolidar execuções em um só lugar.
+  - Identificar tendências e métricas comparativas.
+  - Compartilhar relatórios com a equipe.
 
-- [**Cypress Allure Plugin**](https://github.com/Shelex/cypress-allure-plugin) → Um plugin que gera relatórios HTML ricos e interativos, com informações detalhadas sobre cada teste, como logs, passos, anexos e evidências.
+- [**Cypress Allure Plugin**](https://github.com/Shelex/cypress-allure-plugin) → Gera relatórios HTML interativos com:
+  - Logs detalhados e passos de execução.
+  - Evidências como anexos, screenshots e vídeos.
+  - Visualização clara de falhas e sucessos.
 
 ---
 
