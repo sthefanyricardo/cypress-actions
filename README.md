@@ -139,7 +139,7 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias. Certif
 ### 1️⃣ Instalação e Configuração
 
 <details>
-  <summary>1️⃣ Pré-requisitos</summary>
+  <summary>1 - Pré-requisitos</summary>
 
   Antes de executar os testes, certifique-se de que possui os seguintes itens instalados na sua máquina:
 
@@ -198,7 +198,7 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias. Certif
 </details>
 
 <details>
-  <summary>2️⃣ Instalação das dependências</summary>
+  <summary>2 - Instalação das dependências</summary>
 
   Com os pré-requisitos instalados, siga estes passos para instalar as dependências do projeto:
 
