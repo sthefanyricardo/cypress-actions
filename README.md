@@ -40,16 +40,19 @@ Com este setup, é possível garantir que os testes de regressão sejam executad
 
 ## 📊 Relatórios e Métricas
 
-Durante a execução dos testes, o projeto gera relatórios e evidências que podem ser acompanhados em diferentes plataformas, garantindo maior rastreabilidade e análise. Essas plataformas fornecem o histórico detalhado das execuções, incluindo:
-- Visualização clara de falhas e sucessos e tempo de execução.
-- Evidências como anexos, screenshots, vídeos e os logs detalhados e passos de execução.
-- Identificar tendências com as métricas de desempenho em tempo real e os graficos gerados nos dashboards.
-- Consolidar execuções em um só lugar, sendo possivel compartilhar relatórios com a equipe.
+A execução dos testes gera relatórios completos e evidências que podem ser acompanhados em diferentes plataformas, garantindo rastreabilidade, análise detalhada e colaboração da equipe.
+
+Esses relatórios permitem:
+- Visualizar o histórico de execuções com status, tempo e desempenho.
+- Consultar evidências (screenshots, vídeos, anexos e logs).
+- Identificar falhas e tendências com métricas e gráficos em tempo real.
+- Consolidar e compartilhar resultados em dashboards interativos.
+- As ferramentas utilizadas neste projeto são:
 
 As ferramentas de geração de relatórios e métricas utilizadas neste projeto são:
-- [**Cypress Cloud (Dashboard)**](https://cloud.cypress.io/)
+- [**Cypress Cloud (Dashboard)**](https://cloud.cypress.io/) ![Cypress Cloud](https://img.shields.io/badge/Cypress%20Cloud-Dashboard-04C38E?logo=cypress)  
 - [**Tesults**](https://www.tesults.com/)
-- [**Cypress Allure Plugin**](https://github.com/Shelex/cypress-allure-plugin)
+- [**Cypress Allure Plugin**](https://github.com/Shelex/cypress-allure-plugin) ![Allure Report](https://img.shields.io/badge/Allure-Reports-E91E63?logo=allure)
 
 ---
 
