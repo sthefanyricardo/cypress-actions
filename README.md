@@ -30,8 +30,6 @@ Com este setup, é possível garantir que os testes de regressão sejam executad
 
   Durante o curso, foram aplicados os seguintes conceitos:
 
-  - Versionamento de Código com Git: Como utilizar o Git para gerenciar e controlar as versões do projeto de automação.
-  - Integração com GitHub: Entendimento das diferenças entre Git e GitHub e como publicar o projeto de testes no repositório remoto.
   - Construção de Pipelines e Workflows de CI/CD: Criação de arquivos .yml para automatizar a execução dos testes no GitHub Actions.
   - Testes Contínuos com Cypress: Configuração e execução dos testes de regressão de forma automática, garantindo a detecção precoce de bugs.
   - Geração de Relatórios e Métricas: Configuração de integrações para gerar evidências de execução (vídeos, screenshots) e dashboards com relatórios detalhados.
