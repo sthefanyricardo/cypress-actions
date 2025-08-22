@@ -2,18 +2,14 @@
 
 # Curso Cypress Expert
 
-Este repositório contém o projeto desenvolvido durante o curso [Testes contínuos em Cypress no Github Actions](https://www.udemy.com/course/testes-continuos-em-cypress-no-github-actions/), ministrado por **Fernando Papito** na plataforma **Udemy**.
+Este repositório contém o projeto desenvolvido durante o curso [**Testes contínuos em Cypress no Github Actions**](https://www.udemy.com/course/testes-continuos-em-cypress-no-github-actions/), ministrado por **Fernando Papito** na plataforma **Udemy**.
+
+O objetivo é demonstrar a integração de **testes automatizados com Cypress** em um pipeline de **CI/CD** utilizando o **GitHub Actions**, incluindo relatórios e métricas com **Cypress Cloud**, **Tesults** e **Allure Report**.
+
+Com este setup, é possível garantir que os testes de regressão sejam executados automaticamente a cada alteração no código, proporcionando uma detecção precoce de bugs e um aumento na confiabilidade do sistema.
 
 <details>
   <summary>Clique aqui para expandir as informações sobre o Curso</summary>
-
-  ## 📚 Sobre o Curso
-
-  O objetivo é demonstrar a integração de testes de regressão automatizados com Cypress em um pipeline de CI/CD utilizando o GitHub Actions.
-
-  Com este setup, é possível garantir que os testes de regressão sejam executados automaticamente a cada alteração no código, proporcionando uma detecção precoce de bugs e um aumento na confiabilidade do sistema.
-  
-  ---
 
   ### 🎯 Objetivo
 
@@ -42,21 +38,10 @@ Este repositório contém o projeto desenvolvido durante o curso [Testes contín
 
 ---
 
-## 🚀 Fluxo de Testes com GitHub Actions
-
-Os fluxos de trabalho (workflows) estão configurados no diretório .github/workflows/. Cada arquivo YAML define um pipeline de CI/CD que será ativado por eventos específicos (por exemplo, push ou pull request para a branch main).
-
-- cypress-tests.yml: Este workflow executa os testes de forma básica, sem a necessidade de integração com o Cypress Cloud. É ideal para uma verificação rápida do código.
-
-- cypress-cloud.yml: Este workflow é mais avançado, enviando os resultados da execução para o Cypress Cloud. Isso permite visualizar o histórico de testes, screenshots e vídeos de cada execução diretamente no dashboard da ferramenta.
-
----
-
 ## 📊 Relatórios e Métricas
 
-A execução dos testes gera relatórios e evidências que podem ser visualizados em plataformas externas. As principais ferramentas de relatórios e métricas utilizadas neste projeto são: 
-
-### Ferramentas de geração de relatórios e métricas
+A execução dos testes gera relatórios e evidências que podem ser visualizados em plataformas externas.  
+O projeto integra diferentes ferramentas de relatórios para melhor rastreabilidade:
 
 - [**Cypress Cloud ou Cypress Dashboard**](https://cloud.cypress.io/) → Uma plataforma de dashboard que oferece visualização detalhada e histórica das execuções de testes. Permite ver vídeos, screenshots de falhas e métricas de desempenho.
   - A integração com o Cypress Cloud oferece um dashboard completo para monitorar o histórico de testes. Ele exibe:
@@ -67,6 +52,18 @@ A execução dos testes gera relatórios e evidências que podem ser visualizado
 - [**Tesults**](https://www.tesults.com/) → Uma ferramenta de gerenciamento de resultados de testes que fornece uma visualização clara dos dados, facilitando a análise das execuções e a identificação de tendências.
 
 - [**Cypress Allure Plugin**](https://github.com/Shelex/cypress-allure-plugin) → Um plugin que gera relatórios HTML ricos e interativos, com informações detalhadas sobre cada teste, como logs, passos, anexos e evidências.
+
+---
+
+## ⚙️ Fluxo de Testes com GitHub Actions
+
+Os fluxos de trabalho (workflows) estão configurados no diretório .github/workflows/. Cada arquivo YAML define um pipeline de CI/CD que pode ser ativado manualmente.
+
+- ```cypress-tests.yml:``` Este workflow é configurado para a integração com o Tesults.
+
+- ```cypress-cloud.yml:``` Este workflow é configurado para a integração com o Cypress Cloud.
+
+Cada workflow executa a suíte de testes de ponta a ponta em múltiplos navegadores (Electron, Chrome, Edge e Firefox) e envia os resultados da execução, incluindo logs, vídeos e screenshots, para a respectiva plataforma.
 
 ---
 
@@ -299,4 +296,7 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias. Certif
 
 ## 🙋‍♀️ Autora
 Feito com ❤️ por **Sthefany A. Ricardo**.  
-📅 Última atualização: **Agosto de 2025**.
+📅 Última atualização: **Agosto de 2025**.  
+![Cypress](https://img.shields.io/badge/Cypress-Testing-04C38E?logo=cypress)  
+![CI/CD](https://img.shields.io/github/actions/workflow/status/sthefanyricardo/cypress-actions/cypress-tests.yml?label=CI/CD&logo=github)  
+![Último atualização](https://img.shields.io/github/last-commit/sthefanyricardo/cypress-actions?label=Último%20commit&style=flat&logo=git)  
