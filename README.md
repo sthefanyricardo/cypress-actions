@@ -51,7 +51,7 @@ Esses relatórios permitem:
 
 As ferramentas de geração de relatórios e métricas utilizadas neste projeto são:
 - [**Cypress Cloud (Dashboard)**](https://cloud.cypress.io/) ![Cypress Cloud](https://img.shields.io/badge/Cypress%20Cloud-Dashboard-04C38E?logo=cypress)  
-- [**Tesults**](https://www.tesults.com/)
+- [**Tesults**](https://www.tesults.com/) ![Tesults](https://img.shields.io/badge/Tesults-Results-3F7CAC)  
 - [**Cypress Allure Plugin**](https://github.com/Shelex/cypress-allure-plugin) ![Allure Report](https://img.shields.io/badge/Allure-Reports-E91E63?logo=allure)
 
 ---
