@@ -1,5 +1,7 @@
 ![poster](./.github/poster.png)
 
+![Cypress](https://img.shields.io/badge/Cypress-Testing-04C38E?logo=cypress) ![CI/CD](https://img.shields.io/github/actions/workflow/status/sthefanyricardo/cypress-actions/cypress-tests.yml?label=CI/CD&logo=github) ![Último atualização](https://img.shields.io/github/last-commit/sthefanyricardo/cypress-actions?label=Último%20commit&style=flat&logo=git)
+
 # Curso Cypress Expert
 
 Este repositório contém o projeto desenvolvido durante o curso [**Testes contínuos em Cypress no Github Actions**](https://www.udemy.com/course/testes-continuos-em-cypress-no-github-actions/), ministrado por **Fernando Papito** na plataforma **Udemy**.
@@ -296,7 +298,4 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias. Certif
 
 ## 🙋‍♀️ Autora
 Feito com ❤️ por **Sthefany A. Ricardo**.  
-📅 Última atualização: **Agosto de 2025**.  
-![Cypress](https://img.shields.io/badge/Cypress-Testing-04C38E?logo=cypress)  
-![CI/CD](https://img.shields.io/github/actions/workflow/status/sthefanyricardo/cypress-actions/cypress-tests.yml?label=CI/CD&logo=github)  
-![Último atualização](https://img.shields.io/github/last-commit/sthefanyricardo/cypress-actions?label=Último%20commit&style=flat&logo=git)  
+📅 Última atualização: **Agosto de 2025**.
