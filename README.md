@@ -298,5 +298,4 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias. Certif
 ---
 
 ## 🙋‍♀️ Autora
-Feito com ❤️ por **Sthefany A. Ricardo**.  
-📅 Última atualização: **Agosto de 2025**.
+Feito com ❤️ por **Sthefany A. Ricardo**.
