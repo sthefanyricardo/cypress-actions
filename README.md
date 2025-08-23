@@ -2,7 +2,9 @@
 
 ![Cypress](https://img.shields.io/badge/Cypress-Testing-04C38E?logo=cypress) ![CI/CD](https://img.shields.io/github/actions/workflow/status/sthefanyricardo/cypress-actions/cypress-tests.yml?label=CI/CD&logo=github) ![Último commit](https://img.shields.io/github/last-commit/sthefanyricardo/cypress-actions?label=Último%20commit&style=flat&logo=git)
 
-# Curso Cypress Expert
+---
+
+# Automação com Robot Framework e GitHub Actions
 
 Este repositório contém o projeto desenvolvido durante o curso [**Testes contínuos em Cypress no Github Actions**](https://www.udemy.com/course/testes-continuos-em-cypress-no-github-actions/), ministrado por **Fernando Papito** na plataforma **Udemy**.
 
