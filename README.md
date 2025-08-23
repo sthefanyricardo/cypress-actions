@@ -4,7 +4,7 @@
 
 ---
 
-# Automação com Robot Framework e GitHub Actions
+# Automação com Cyress e GitHub Actions
 
 Este repositório contém o projeto desenvolvido durante o curso [**Testes contínuos em Cypress no Github Actions**](https://www.udemy.com/course/testes-continuos-em-cypress-no-github-actions/), ministrado por **Fernando Papito** na plataforma **Udemy**.
 
