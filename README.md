@@ -298,4 +298,7 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias. Certif
 ---
 
 ## 🙋‍♀️ Autora
+
 Feito com ❤️ por **Sthefany A. Ricardo**.
+
+- Este `README.md` foi gerado com a assistência de modelos de linguagem como o Google Gemini e o ChatGPT, para garantir clareza, formatação e um conteúdo completo.
